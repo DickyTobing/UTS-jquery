@@ -1,0 +1,15 @@
+body{
+    font-family:arial,sans-serif;
+    background-color: #f0f0f0;
+  }
+  h1{
+    color: blue;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1,5;
+    color: green;
+  }
+  .special-text {
+    font-weight: bold;
+  }

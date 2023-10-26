@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .borderClass {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+        }
+        .borderAdded {
+            border: 2px solid green;
+            background-color: red;
+        }
+        .borderAdded2 {
+            border: 2px solid green;
+            background-color:red;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="borderClass" id="element1">Elemen 1</div>
+    <div class="borderClass" id= "element2">Elemen2</div>
+    <div class="borderClass" id="element3">Elemen 3</div>
+
+    <button id="addBorderButton">Tambah Border</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#addBorderButton").click(function() {
+                $(".borderClass#element2").addClass("borderAdded1");
+                $("#element1").addClass("borderAdded2");
+            });
+        });
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
